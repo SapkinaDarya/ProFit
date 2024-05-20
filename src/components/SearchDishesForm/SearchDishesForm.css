@@ -1,0 +1,26 @@
+.add-dishes-form__title {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.add-dishes-form__input {
+  margin-bottom: 20px;
+}
+.add-dishes-form__search {
+  width: 241px;
+  height: 250px;
+  margin-bottom: 30px;
+  border: 1px solid black;
+  border-radius: 20px;
+  overflow: scroll;
+  padding: 10px 0;
+}
+.add-dishes-form__item-btn {
+  width: 100%;
+  background-color: white;
+  border: none;
+  outline: none;
+  padding: 10px 10px;
+  color: black;
+}

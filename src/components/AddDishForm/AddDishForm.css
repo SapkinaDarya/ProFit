@@ -1,0 +1,17 @@
+.add-dish-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-gap: 30px;
+}
+.add-dish-form__title {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+.add-dish-form__inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-gap: 20px;
+}

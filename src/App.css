@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+@font-face{
+	font-family: "NicoMoji";
+	src: url("../public/fonts/NicoMoji-Regular.ttf")
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: "Montserrat", sans-serif;
+	color: white;
+	font-weight: 400;
+	font-size: 14;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul {
+	list-style: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body{
+	background-color: #02001F;
 }
 
-.App-link {
-  color: #61dafb;
+.error{
+	color: red;
+	font-size: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.correct{
+	color: rgb(2, 181, 2);
+	font-size: 10px;
+}
+
+.un-log{
+	padding: 0 30px;
+	padding-top: 300px;
 }

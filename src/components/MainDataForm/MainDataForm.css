@@ -1,0 +1,35 @@
+.main-data-form {
+  padding: 30px 20px 44px;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+.main-data-form__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 24px;
+  margin-bottom: 34px;
+}
+.main-data-form__login {
+  font-size: 20px;
+  font-weight: 500;
+}
+.main-data-form__btn-log-out {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.main-data-form__main {
+  margin-bottom: 34px;
+  text-align: start;
+}
+.main-data-form__field {
+  margin-bottom: 22px;
+  font-weight: 500;
+}
+.main-data-form__field:last-child {
+  margin-bottom: 0px;
+}
+.main-data-form__label {
+  margin-right: 10px;
+}

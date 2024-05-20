@@ -1,25 +1,31 @@
-import logo from './logo.svg';
+import { Routes, Route } from 'react-router-dom'
+import FirstPage from './components/pages/FirstPage/FirstPage'
+import SignInPage from './components/pages/SignInPage/SignInPage'
+import SignUpPage from './components/pages/SignUpPage/SignUpPage'
+import Layout from './components/Layout/Layout'
+import AccountPage from './components/pages/AccountPage/AccountPage'
+import FoodPage from './components/pages/FoodPage/FoodPage'
+import SportPage from './components/pages/SportPage/SportPage'
+import MessagePage from './components/pages/MessagePage/MessagePage'
+import ClientPageForTr from './components/pages/ClientPageForTr/ClientPageForTr'
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<Routes>
+			<Route path='/' element={<FirstPage />} />
+			<Route path='/signIn' element={<SignInPage />} />
+			<Route path='/signUp' element={<SignUpPage />} />
+			<Route path='/home/' element={<Layout />}> 
+				<Route index element={<AccountPage />}/>
+				<Route path='food' element={<FoodPage />}/>
+				<Route path='sport' element={<SportPage />}/>
+				<Route path='message' element={<MessagePage />}/>
+			</Route>
+			<Route path='/aboutYourClient' element={<ClientPageForTr />} />
+			<Route path='/aboutYourClient/:id' element={<ClientPageForTr />} />
+		</Routes>
+	);
 }
 
 export default App;

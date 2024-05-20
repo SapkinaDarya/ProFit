@@ -1,0 +1,29 @@
+.input {
+  width: 241px;
+  height: 39px;
+  border-radius: 20px;
+  padding-left: 20px;
+}
+.input--transp-white {
+  background-color: transparent;
+  border: 1px solid white;
+}
+.input--transp-white:focus {
+  outline: 1px solid #DF83FF;
+}
+.input--transp-black {
+  background-color: transparent;
+  border: 1px solid black;
+  color: black;
+}
+.input--transp-black:focus {
+  outline: 1px solid #DF83FF;
+}
+.input--white {
+  background-color: white;
+  border: none;
+  color: black;
+}
+.input--white:focus {
+  outline: 1px solid #DF83FF;
+}

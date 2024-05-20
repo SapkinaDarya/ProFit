@@ -1,0 +1,109 @@
+.client-page-for-tr {
+  padding: 50px 40px;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 70px;
+}
+.client-page-for-tr__logOut {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 30px;
+  font-weight: 600;
+}
+.client-page-for-tr__link {
+  padding-top: 10px;
+}
+.client-page-for-tr__svg {
+  width: 40px;
+  height: 40px;
+}
+.client-page-for-tr__title {
+  font-size: 30px;
+  text-align: center;
+  color: #DF83FF;
+}
+.client-page-for-tr__desc {
+  text-align: center;
+}
+.client-page-for-tr__desc--green {
+  color: rgb(2, 181, 2);
+}
+.client-page-for-tr__desc--red {
+  color: red;
+}
+.client-page-for-tr__workouts {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 10px;
+}
+.client-page-for-tr__workout {
+  padding: 20px 0 20px 20px;
+  display: flex;
+  grid-gap: 20px;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+.client-page-for-tr__workout:last-child {
+  margin-bottom: 0px;
+}
+.client-page-for-tr__workout--red {
+  border: 2px solid red;
+}
+.client-page-for-tr__workout--green {
+  border: 2px solid rgb(2, 181, 2);
+}
+.client-page-for-tr__workout-date, .client-page-for-tr__workout-name {
+  color: black;
+}
+.client-page-for-tr__workout-date {
+  font-size: 10px;
+}
+.client-page-for-tr__dishes-date {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.client-page-for-tr__cbgu-modul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+.client-page-for-tr__dishes-type {
+  font-size: 20px;
+}
+.client-page-for-tr__nothing {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+.client-page-for-tr__list {
+  margin-bottom: 50px;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 20px;
+}
+.client-page-for-tr__list:last-child {
+  margin-bottom: 0px;
+}
+.client-page-for-tr__item {
+  padding-left: 20px;
+}
+.client-page-for-tr__title-food {
+  font-size: 30px;
+  text-align: center;
+  color: #DF83FF;
+  margin-bottom: 10px;
+}
+.client-page-for-tr__data {
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 10px;
+}

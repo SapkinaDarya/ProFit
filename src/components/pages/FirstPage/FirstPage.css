@@ -1,0 +1,12 @@
+.first-page {
+  padding-top: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-gap: 40vh;
+}
+.first-page__buttons {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 30px;
+}

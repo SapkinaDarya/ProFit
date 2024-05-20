@@ -1,0 +1,12 @@
+.un-log-form {
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 20px 0;
+}
+.un-log-form__descripton {
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 20px;
+}
+.un-log-form__btn {
+  margin-bottom: 10px;
+}

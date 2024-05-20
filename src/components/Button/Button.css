@@ -1,0 +1,18 @@
+.button {
+  width: 202px;
+  height: 44px;
+  border-radius: 20px;
+}
+.button--purple {
+  background-color: #DF83FF;
+  border: none;
+}
+.button--white {
+  background-color: white;
+  color: black;
+  border: 1px solid #DF83FF;
+}
+.button--transp {
+  background-color: transparent;
+  border: 1px solid white;
+}

@@ -1,0 +1,29 @@
+.main-data-food__cal-box {
+  width: 270px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.main-data-food__cal-row {
+  margin-bottom: 10px;
+}
+.main-data-food__cal-row--purple {
+  color: #DF83FF;
+}
+.main-data-food__bgu-box {
+  width: 287px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.main-data-food__bgu {
+  color: #DF83FF;
+}
+.main-data-food__water-box {
+  width: 232px;
+  display: flex;
+  justify-content: space-around;
+}
+.main-data-food__water {
+  color: #DF83FF;
+}

@@ -1,0 +1,35 @@
+.message-couch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-gap: 50px;
+  padding-top: 90px;
+}
+.message-couch__title {
+  font-size: 20px;
+  width: 240px;
+}
+.message-couch__inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-gap: 20px;
+}
+.message-couch__input-text {
+  width: 100%;
+  height: 321px;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  padding: 30px;
+  resize: none;
+}
+.message-couch__input-text:focus {
+  outline: 1px solid #DF83FF;
+}
+.message-couch__button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-gap: 10px;
+}
