@@ -11,28 +11,28 @@ import { useDispatch, useSelector } from 'react-redux';
 import { openModal } from '../../../store/slices/modalActiveSlice';
 
 function AccountPage() {
-	const { isAuth } = useAuth()
-	const modal = useSelector(state => state.modal)
-	const dispatch = useDispatch()
+  const { isAuth } = useAuth()
+  const modal = useSelector(state => state.modal)
+  const dispatch = useDispatch()
 
-	return isAuth? (
-		<div className='account-page'>
-			<MainDataForm />
-			<FindNewClientForm />
-			<Button 
-				className='white' 
-				text='Изменить'
-				onClick={()=>dispatch(openModal({name:'changeMainDataModal'}))}
-			/>
-			<ModalWindow active={modal.changeMainDataModal} name='changeMainDataModal'>
-				<ChangeMainDataForm />
-			</ModalWindow>
-		</div>
-	) : (
-		<div className='un-log'>
-			<UnLogForm />
-		</div>
-	)
+  return isAuth? (
+    <div className='account-page'>
+      <MainDataForm />
+      <FindNewClientForm />
+      <Button 
+        className='white' 
+        text='Изменить'
+        onClick={()=>dispatch(openModal({name:'changeMainDataModal'}))}
+      />
+      <ModalWindow active={modal.changeMainDataModal} name='changeMainDataModal'>
+        <ChangeMainDataForm />
+      </ModalWindow>
+    </div>
+  ) : (
+    <div className='un-log'>
+      <UnLogForm />
+    </div>
+  )
 }
 
 export default AccountPage
